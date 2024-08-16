@@ -1,0 +1,20 @@
+<div class="table-container">
+<table>
+    <thead>
+      <tr>
+        <th>Name</th>
+         <th>Total Time in Month</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>          
+            <tr *ngFor="let employee of employees" [class.highlight]="employee.totalHours < 100">
+              <td>{{ employee.employeeName }}</td>
+              <td>{{ employee.totalHours ?? 0 | number: '1.0-0' }} hrs</td>
+              <td><a href="#">Edit</a></td>
+            </tr>          
+    </tbody>
+  </table>
+
+</div>
+  

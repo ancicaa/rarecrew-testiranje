@@ -1,0 +1,33 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-left: 2px solid #ddd; /* Linija sa leve strane tabele */
+    border-right: 2px solid #ddd; 
+
+  }
+  
+  th, td {
+    padding: 8px 12px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr.highlight {
+    background-color: #f4cccc;
+  }
+  
+  a {
+    color: blue;
+  }
+
+  .table-container {
+    max-width: 80%; 
+    margin: 0 auto;
+    overflow-x: auto; 
+  }
+
+  
