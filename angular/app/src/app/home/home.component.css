@@ -1,7 +1,7 @@
 table {
     width: 100%;
     border-collapse: collapse;
-    border-left: 2px solid #ddd; /* Linija sa leve strane tabele */
+    border-left: 2px solid #ddd; 
     border-right: 2px solid #ddd; 
 
   }
@@ -30,4 +30,6 @@ table {
     overflow-x: auto; 
   }
 
+
+  
   

@@ -1,0 +1,8 @@
+#pieChart {
+    width: 550px !important;
+    height: 550px !important;
+}
+
+canvas {
+    margin: auto;
+}
