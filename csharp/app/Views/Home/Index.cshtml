@@ -1,0 +1,23 @@
+﻿@model IEnumerable<app.Models.Employee>
+
+<div class="table-container">
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Total Time in Month</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var employee in Model)
+            {
+                <tr class="@(employee.TotalHours < 100 ? "highlight" : "")">
+                    <td>@employee.EmployeeName</td>
+                    <td>@employee.TotalHours.ToString("0") hrs</td>
+                    <td><a href="#">Edit</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
