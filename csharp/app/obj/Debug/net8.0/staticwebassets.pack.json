@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets/app.bundle.scp.css"
     },
     {
+      "Id": "/Users/anavranes/Desktop/rarecrew/csharp/app/wwwroot/charts/employeePieChart.png",
+      "PackagePath": "staticwebassets/charts/employeePieChart.png"
+    },
+    {
       "Id": "/Users/anavranes/Desktop/rarecrew/csharp/app/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },

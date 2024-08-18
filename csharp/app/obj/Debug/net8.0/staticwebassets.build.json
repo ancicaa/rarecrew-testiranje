@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "V8eQDXJfD9qMhMv/p+ChXpvhUN7xUtEYHr8LeE/QRh0=",
+  "Hash": "7A388FaGoo9MLfZJhIj8ITHrJd/6yXYmXOR7lhmYTFQ=",
   "Source": "app",
   "BasePath": "_content/app",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/anavranes/Desktop/rarecrew/csharp/app/obj/Debug/net8.0/scopedcss/projectbundle/app.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/anavranes/Desktop/rarecrew/csharp/app/wwwroot/charts/employeePieChart.png",
+      "SourceId": "app",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/anavranes/Desktop/rarecrew/csharp/app/wwwroot/",
+      "BasePath": "_content/app",
+      "RelativePath": "charts/employeePieChart.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/charts/employeePieChart.png"
     },
     {
       "Identity": "/Users/anavranes/Desktop/rarecrew/csharp/app/wwwroot/css/site.css",
